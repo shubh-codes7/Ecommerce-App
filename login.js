@@ -28,7 +28,7 @@ form.addEventListener("submit", (e)=>{
             }))
 
             setTimeout(()=>{
-                window.location.href = "./shop"
+                window.location.href = "./shop/index.html"
             }, 1500)
         }else{
             msg.textContent = `Password incorrect`
@@ -38,7 +38,7 @@ form.addEventListener("submit", (e)=>{
         //user not exists
         msg.innerText = "User does not exists!\t"
         msg.style.color = "red"
-        msg.innerHTML += ("<a href='./index.html'>Go to SignUp Page</a>")
+        msg.innerHTML += ("<a href='./signup.html'>Go to SignUp Page</a>")
     }
 }
 
