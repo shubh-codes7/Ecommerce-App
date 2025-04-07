@@ -38,7 +38,7 @@ form.addEventListener("submit", (e)=>{
         //user not exists
         msg.innerText = "User does not exists!\t"
         msg.style.color = "red"
-        msg.innerHTML += ("<a href='http://127.0.0.1:5501/index.html'>Go to SignUp Page</a>")
+        msg.innerHTML += ("<a href='./index.html'>Go to SignUp Page</a>")
     }
 }
 
