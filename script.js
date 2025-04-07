@@ -36,7 +36,7 @@ form.addEventListener("submit", (e)=> {
             localStorage.setItem("users", JSON.stringify(users))
             form.reset()
             setTimeout(()=>{
-                window.location.href = "http://127.0.0.1:5501/login.html"
+                window.location.href = "./login.html"
             }, 1500)
         }
 

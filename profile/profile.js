@@ -7,8 +7,6 @@ let Opwd = document.querySelector("#Opwd")
 let Npwd = document.querySelector("#Npwd")
 let cNpwd = document.querySelector("#cNpwd")
 
-let saveInfoBtn = document.querySelector("#saveInfo")
-let changePwBtn = document.querySelector("#changePw")
 let logoutBtn = document.querySelector("#logout")
 
 let form1 = document.querySelector("#form1")
@@ -82,7 +80,7 @@ logoutBtn.addEventListener("click", ()=>{
 }else{
     document.querySelector("body").innerHTML = `
         <p style="color: red;">You are not logged in!</p>
-        <a href="http://127.0.0.1:5501/login.html">Login</a>
+        <a href="./login.html">Login</a>
     `
 }
 
